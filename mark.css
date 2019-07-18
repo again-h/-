@@ -6,8 +6,10 @@ padding:0;
 /* 头部设置 */
 .header{
     width:100%;
+    max-width: 1920px;
     height:80px;
     background:#07cbc9;
+    margin: 0 auto;
 }
 
 .header .logo{
@@ -42,6 +44,8 @@ li{
 /* banner图背景、宽高 */
 .banner{
     width:100%;
+    max-width: 1920px;
+    margin: 0 auto;
     height:800px;
     background: url(images/banner3.jpg) no-repeat;
     position: relative;
@@ -113,7 +117,9 @@ li{
   }
   .about .about-banner{
       width:100%;
-      margin:50px auto;
+      height: 380px;
+      max-width: 1920px;
+      margin: 0 auto;
       position: relative;
   }
 
@@ -138,12 +144,14 @@ li{
 
 /* 中模块左边部分的半透明框 */
   .about-banner .about-banner-left .opactiy{
+position: absolute;
+      left: 150px;
+      top:150px;
       width: 370px;
       height: 246px;
       border:1px solid #999;
       opacity: 0.6;
-      text-align: center;
-      margin-left:100px; 
+      z-index: 3; 
   }
   .about-banner .about-banner-left .opactiy p{
     width: 370px;
@@ -165,19 +173,42 @@ li{
   }
 
 /* 中模块居中照片 */
+.about-banner .img {
+  width:568px;
+  height:380px;
+  position: absolute;
+  left:0;
+  right: 0;
+  margin:auto;
+}
   .about-banner .img img{
       width:568px;
       height:380px;
   }
   
-  /* 中模块右边部分的蓝色框 */
+  /* 中模块右边部分的蓝色框部分 */
+  .about-banner .display{
+    display:inline-block;
+    position: relative;
+    
+
+  }
   .about-banner .display .display-one{
       width:236px;
       height:142px;
-      text-align:center;
       border:1px solid #07cbc9;
-      margin-top:50px;
+      position: absolute;
+      left:800px;
+      top:-10px;
   }
+  .about-banner .display .display-one:nth-child(2){
+    width:236px;
+    height:142px;
+    border:1px solid #07cbc9;
+    position: absolute;
+    left:800px;
+    top:133px;
+}
   .about-banner .display .display-one p{
     width:236px;
     margin-top:20px;
@@ -194,7 +225,9 @@ li{
 
       /* about下模块 */
   .main .about .about-table{
-    width:100%;    
+    width:100%; 
+    max-width: 1920px;
+    margin: 0 auto;   
   }
   .main .about .about-table img{
     width:100%;    
@@ -297,6 +330,8 @@ li{
  /* fotter区域 */
  .footer{
      width:100%;
+     max-width: 1920px;
+     margin: 0 auto;
      height:80px;
      background:#07cbc9;
      margin-top:50px;    
