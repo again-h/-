@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-
+.main{
+width:1200px;
+    
+}
 /* 导航 */
 .header{
     margin: 20px auto 0;
