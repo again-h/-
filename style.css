@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 导航 */
+.header{
+    margin: 20px auto 0;
+    width: 1200px;
+    max-width: 1200px;
+
+}
+
+/* 导航栏字体、宽度设置 */
+.header li{
+
+    width: 300px;
+    text-align: center;
+    font:normal normal bold  32px/50px "Microsoft YaHei";
+    list-style: none;
+    display: inline-block;
+}
+
+/*  初始高亮*/
+.item{
+    background:#fc0;
+}
+/* 导航栏轮播获得高亮 */
+.old{
+
+    background:#fff;
+}
+.new{
+
+    background:#fc0;
+}
+
+/* photo设置 */
+section{
+    width: 1200px;
+    max-width: 1200px;
+    height: 400px;
+    margin:0 auto;
+    overflow: hidden;
+}
+/* photo */
+.photo{
+    width: 1200px;
+    height: 400px;
+
+}
+.photo1{
+    background: url(img/1.jpg)
+}
+.photo2{
+    background: url(img/3.jpg)
+}
+.photo3{
+    background: url(img/4.jpg)
+}
+.photo4{
+    background: url(img/5.jpg)
+}
+
+
+
